@@ -1,67 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="index.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap&subset=korean" rel="stylesheet">
+
+<head> 
     <title>Liongram</title>
-  </head>
-  <body>
+    <link rel="stylesheet"  href="index.css" />
+    <meta charset="utf-8">
+</head>
+
+<body>
     <div class = "header">
-         <div class = "header_inner">
-             <div class = "logo">
+        <div class = "header_inner">
+            <div class = "logo">
                 <a href = "https://www.instagram.com/">
-                    <img class="logo_img" src="./images/logo_img.png"/>
+                    <img class="logo_img" src="/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/logo_img.png">
                 </a>
-             </div>
-             <div class = "search">
+            </div>
+            <div class = "search">
                 <input class="search_box" type="text" placeholder="검색">
-             </div>
-             <div class = "button">
+            </div>
+            <div class = "button">
                 <div class = "icon">
                     <a href = "https://www.instagram.com/">
-                        <img src="./images/bell-regular.svg"/>
-                    </a>
-                </div>
-                <div class = "icon">
-                    <a href = "https://www.instagram.com/">
-                        <img src="./images/heart-regular.svg"/>
+                        <img src="/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/bell-regular.svg"/>
                     </a>
                 </div>
                 <div class = "icon">
                     <a href = "https://www.instagram.com/">
-                        <img src="./images/user-solid.svg"/>
+                        <img src="/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/heart-regular.svg"/>
                     </a>
                 </div>
-             </div>
-         </div>
-    </div>
-    
-    <div class = "feed">
-            <div id = "contents">
-                <div id = "nickname"> 
-                    <a href = "https://www.instagram.com/yunnysunnyshiny/">
-                    <img class = 'profile' src="./images/profilepic.png"/>
-                    </a>
-                    <a href = "https://www.instagram.com/yunnysunnyshiny/">
-                    <h3>yunnysunnyshiny</h3>
-                    </a>
-                </div>
-
-                <div id = 'feed_image'>
-                <img src= "./images/IMG_0573.png"/>
-                </div>
-                <div id = "like">
+                <div class = "icon">
                     <a href = "https://www.instagram.com/">
-                        <img class = 'icon' src="./images/heart-regular.svg"/>
+                        <img src="/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/user-solid.svg"/>
                     </a>
-
-                </div>
-                <div id = "comment">
-                    <textarea id ="writing_comment" rows = 1  placeholder="댓글 달기... " name="content"></textarea>
-
                 </div>
             </div>
+        </div>
     </div>
 
-  </body>
-</html>
+    <div class = "feed">
+        <div class = "article">
+            <div class = "article_header">
+                <div class = "username">stillyoung_sumin</div>
+            </div>
+            <div class = "article_photo">
+                <img class = "photo" src = "/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/article_img.jpg">
+            </div>
+            <div class = "article_button">
+                <button class = "like">
+                    <img src="/Users/sumin/Desktop/Development/연습/프리세미나 준비/snulion-html-css-seminar/images/heart-regular.svg"/>
+                </button>
+            </div>
+            <div class = "article_comment">
+                <textarea class="commentbox" placeholder="댓글 달기..." style="height: 18px;"></textarea>
+                <input class="submit" type ="submit" value ="게시">
+            </div>
+        </div>
+    </div>
+
+</body>
